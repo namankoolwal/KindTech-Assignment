@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .checkbox::after {
+  content: "\2713"; 
+  
+} */
+
+#stepIndicator {
+    background-image: url(../src/assets/bgSidebarMobile.png);
+  }
+@media (min-width: 768px) {
+    #stepIndicator {
+      background-image: url(../src/assets/bgSidebar.png);
+    }
+  }
